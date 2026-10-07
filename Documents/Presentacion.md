@@ -1,9 +1,35 @@
 ---
 marp: true
 
+backgroundImage: url("../imgs/bg.png")
+backgroundSize: cover
+backgroundPosition: center
+
 footer: SERIOUS GAMES POR UN DESARROLLO SOSTENIBLE. Javier Albors Caño. This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
+
+<style>
+  h1 {
+    color: #dc27cd;
+    font-family: 'Public Pixel';
+    text-align: center;
+    text-shadow: 
+      2px 2px 5px #fefadb;
+  }
+  h2 {
+    color: #0087ff;
+    font-family: 'Public Pixel';
+    text-shadow: 
+      2px 2px 5px #fefadb;
+  }
+  h3 {
+    color: #00549c;
+    font-family: 'Public Pixel';
+    text-shadow: 
+      2px 2px 5px #fefadb;
+  }
+</style>
 
 # SERIOUS GAMES POR UN DESARROLLO SOSTENIBLE
 ## Desarrollo colaborativo de un videojuego web educativo usando metodologías ágiles
@@ -11,7 +37,7 @@ footer: SERIOUS GAMES POR UN DESARROLLO SOSTENIBLE. Javier Albors Caño. This wo
 ---
 
 ## Objetivo de la práctica
-Esta práctica consiste en el desarrollo colaborativo de un videojuego y una página web, a través de metodologías ágiles, utilizando herramientas de control de versiones e IA integrada en el entorno de desarrollo para agilizar la generación de código.
+Esta práctica consiste en el desarrollo colaborativo de un videojuego y una página web, a través de metodologías ágiles, utilizando herramientas de control de versiones.
 El proyecto servirá como iniciación al desarrollo colaborativo de una pieza de software, emulando en clase un entorno de trabajo realista. 
 Utilizaréis **Git como herramienta de control de versiones**, y aplicaréis el método **KANBAN**.
 
@@ -20,8 +46,8 @@ Utilizaréis **Git como herramienta de control de versiones**, y aplicaréis el 
 ## Parte 1. Explicación del proyecto
 
 ### Organización del trabajo
-- Grupos de **2 ó 3 personas**.
-- Cada grupo debe acordar el diseño y reparto de tareas.
+- Grupos de **4 ó 5 personas**.
+- Cada grupo debe acordar el diseño y reparto de roles y tareas.
 - Desarrollaréis un videojuego web incrustado en una página. 
 
 ---
@@ -40,7 +66,7 @@ Utilizaréis **Git como herramienta de control de versiones**, y aplicaréis el 
 ### Diseño de juego
 
 - Debe contener al menos 3 microjuegos por integrante:
-  - Un total de 6 en los proyectos desarrollados por parejas y 9 para grupos de 3. 
+  - Un total de 12 en los proyectos desarrollados por grupos de 4 y 15 para grupos de 5. 
 - Al perder todas las vidas, el juego termina.
 - La puntuación aumenta con cada microjuego superado.
 
